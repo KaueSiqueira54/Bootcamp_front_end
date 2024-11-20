@@ -1,7 +1,7 @@
 
 const precoCombustivel = 5.79;
-const gastoMedioCombustivelPorKm = 10;
-const distanciaKm = 100;
+const gastoMedioCombustivelPorKm = 1;
+const distanciaKm = 1580;
 
 const calculo = precoCombustivel * (distanciaKm / gastoMedioCombustivelPorKm);
 
