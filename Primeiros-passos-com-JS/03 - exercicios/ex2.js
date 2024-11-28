@@ -8,4 +8,4 @@ function idade (idade) {
     }
 }
 
-idade(18);
+idade(17);
