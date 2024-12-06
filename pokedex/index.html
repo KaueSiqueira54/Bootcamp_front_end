@@ -4,29 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
+    <!--Normalize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <style>
-        h1 {
-            color:red;
-        }
+    <!---Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap" rel="stylesheet">
 
-        p {
-            color: blue;
-        }
-    </style>
+    <!---CSS-->
+    <link rel="stylesheet" href="CSS/global.css">
 </head>
 <body>
-    <h1>Teste</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dignissimos hic natus error in optio alias quia, voluptatum magni aliquid consectetur mollitia tenetur iste explicabo, iusto, excepturi quisquam reiciendis molestias?</p>
-    <button type="button" id="btn">Teste</button>
+
+    <section class="content"> 
+        <h1>Pokedex</h1>
+
+        <ol class="pokemons">
+            <li>
+                Bulbasaur
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Bulbasaur">
+            </li>
+            <li>
+                Ivysaur
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/2.svg" alt="">
+            </li>
+            <li>
+                Venusaur
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg" alt="Ivysaur">
+            </li>
+            <li>
+                Charmander
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg" alt="Charmander">
+            </li>
+            <li>
+                Chameleon
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/5.svg" alt="Chameleon">
+            </li>
+            <li>
+                Chalizard
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/6.svg" alt="Chalizard">
+            </li>
+        </ol>
+
+    </section>
 
 
-    <script>
 
-       const btnTeste = document.getElementById("btn")
-        btnTeste.addEventListener("click", function() {
-            alert("Clicou")
-        })
-    </script>
+    <!--Código JS-->
+    <script src="JS/main.js"></script>
 </body>
+
 </html>
